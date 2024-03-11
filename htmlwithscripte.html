@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <h1>This is button test with javascripte</h1>
+    <style>
+        .city{
+            background-color: orange;
+        }
+    </style>
+    <body class="city" id="city">
+        <h1>This is button test with javascripte</h1>
 
     <button onclick="myFunction()">Click Me</button>
-
     <script>
-        function myFunction(){
-            alert("Hello world");
-        }
+
+            function myFunction() {
+           
+                //document.getElementById("city").style.backgroundColor = "black";
+                document.getElementById('city').style.backgroundColor = 'yellow'
+            }
+     
     </script>
+
+
+
+    </body>
 </html>
